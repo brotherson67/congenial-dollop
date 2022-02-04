@@ -19,5 +19,9 @@
   "homepage": "https://github.com/brotherson67/congenial-dollop#readme",
   "dependencies": {
     "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
   }
 }
