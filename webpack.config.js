@@ -12,6 +12,7 @@ module.exports = {
     filename: 'main.bundle.js'
   },
     // plugins can allow use of other npm packages, like jquery in this case
+    // I needed to add jqeury to the plugins because it has native variables that webpack doens't understand natively
     plugins:[
         new webpack.ProvidePlugin({
           $: "jquery",
