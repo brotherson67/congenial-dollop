@@ -2,6 +2,7 @@
 
 const path = require('path');
 const  webpack  = require('webpack');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
     // address to the directory that I want to enter
@@ -18,6 +19,9 @@ module.exports = {
           $: "jquery",
           jQuery: "jquery"
         }),
+        new BundleAnalyzerPlugin({
+            analyzerMode:"static", // static will generate a report HTML file in the dist folder
+        })
       ],
 
     // webpack runs in production mode by default. That mode minifies code automatically
