@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/brotherson67/congenial-dollop#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0"
   },
   "devDependencies": {
     "webpack": "^4.46.0",
