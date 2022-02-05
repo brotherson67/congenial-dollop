@@ -1,3 +1,5 @@
+require("bootstrap");
+
 $(document).ready(function () {
   function e(e, t, ...a) {
     if ("string" != typeof e)
